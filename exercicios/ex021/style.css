@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+header{
+    margin: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+body{
+    background-color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+h1{
+    font-family: 'Otomanopee One', sans-serif;
+    margin: 0px 0px 10px 0px;
+}
+
+nav{
+    padding: 3px;
+}
+
+
+nav > a{
+    text-decoration: none;
+    color: saddlebrown;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+nav > a:hover{
+    background-color: saddlebrown;
+    color: antiquewhite;
+    border-radius: 5px;
+    
+}
+
+main{
+    width: 300px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+main:hover{
+    box-shadow: 2px 2px 4px 2px rgb(0, 0, 0);
+}
+
+h2{
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+article{
+    background-color: mintcream;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+article > h2{
+    margin: 0px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+article > aside{
+    background-color: rgb(126, 133, 129);
+    margin: 0px;
+    padding: 5px 10px;
+
+}
+aside{
+    border-radius: 5px;
+}
+
+aside > p{
+    margin: 0px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer > p{
+    margin: 0px;
+}
