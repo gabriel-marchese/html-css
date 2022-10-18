@@ -81,7 +81,7 @@ section.image{
 
 section.image > p {
     background-color: rgba(0, 0, 0, 0.500);
-    width: 400px;
+    max-width: 300px;
     text-shadow: 1px 1px 0px black;
     padding: 10px;
     border-radius: 25px;
